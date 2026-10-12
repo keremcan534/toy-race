@@ -1,0 +1,5 @@
+{
+  "name": "Toy Race",
+  "description": "A top-down racing game with car upgrades, a garage, and several tracks and race modes.",
+  "requestFramePermissions": []
+}

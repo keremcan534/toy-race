@@ -1,0 +1,13 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+
+# Original uncompressed media (kept locally, not needed for the build)
+_originals/
+
+# Local editor / agent settings
+.claude/
