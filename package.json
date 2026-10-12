@@ -2,14 +2,17 @@
   "name": "toy-race",
   "private": true,
   "version": "1.0.0",
+  "description": "Toy Race - a top-down racing game with car upgrades, a garage, four tracks and four race modes.",
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "android": "npm run build && cap sync android"
   },
   "dependencies": {
+    "@capacitor/android": "8.5.2",
     "@capacitor/app": "8.1.1",
     "@capacitor/core": "8.5.2",
     "clsx": "^2.1.1",
@@ -21,6 +24,7 @@
     "zustand": "^5.0.11"
   },
   "devDependencies": {
+    "@capacitor/cli": "8.5.2",
     "@tailwindcss/vite": "^4.1.14",
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.4",

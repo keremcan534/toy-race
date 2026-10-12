@@ -1,0 +1,15 @@
+{
+  "appId": "com.keremcan534.toyrace",
+  "appName": "Toy Race",
+  "webDir": "dist",
+  "backgroundColor": "#09090b",
+  "android": {
+    "includePlugins": ["@capacitor/app"]
+  },
+  "plugins": {
+    "SystemBars": {
+      "hidden": true,
+      "initialViewportFitValueHint": "cover"
+    }
+  }
+}

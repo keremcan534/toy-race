@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Toy Race</string>
+    <string name="title_activity_main">Toy Race</string>
+    <string name="package_name">com.keremcan534.toyrace</string>
+    <string name="custom_url_scheme">com.keremcan534.toyrace</string>
+</resources>

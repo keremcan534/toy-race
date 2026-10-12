@@ -131,7 +131,7 @@ export const Shop = () => {
       </div>
 
       {/* Left Side: Car Preview & Stats (Translucent Glass Panel) */}
-      <div className="w-full h-auto md:h-full landscape:h-full md:w-[40%] landscape:w-[42%] flex flex-col items-center justify-center bg-zinc-950/45 backdrop-blur-md p-2 sm:p-4 relative border-b md:border-b-0 md:border-r border-white/10 pt-12 md:pt-20 z-10 shrink-0 overflow-y-auto shadow-2xl">
+      <div className="w-full h-auto md:h-full landscape:h-full md:w-[40%] landscape:w-[42%] flex flex-col items-center justify-center-safe bg-zinc-950/45 backdrop-blur-md p-2 sm:p-4 relative border-b md:border-b-0 md:border-r border-white/10 pt-16 sm:pt-16 md:pt-20 z-10 shrink-0 overflow-y-auto shadow-2xl">
         
         {/* Car Title - Only shown on portrait or desktop screens */}
         <div className="mb-0.5 md:mb-3 text-center hidden portrait:block md:block">
@@ -196,7 +196,7 @@ export const Shop = () => {
       </div>
 
       {/* Right Side: Car Grid (Translucent Frosted Glass Over Background) */}
-      <div className="w-full md:w-[60%] landscape:w-[60%] h-full bg-zinc-950/25 backdrop-blur-xs p-4 sm:p-6 pt-4 md:pt-20 overflow-y-auto relative z-10">
+      <div className="w-full md:w-[60%] landscape:w-[60%] h-full bg-zinc-950/25 backdrop-blur-xs p-4 sm:p-6 pt-16 sm:pt-16 md:pt-20 overflow-y-auto relative z-10">
         <div className="flex items-center gap-3 mb-4 sm:mb-6 sticky top-0 bg-zinc-950/50 backdrop-blur-md py-3 sm:py-4 px-3 rounded-lg z-20 border border-white/10 shadow-lg">
           <Flame className="text-red-500 fill-red-500 w-5 h-5 sm:w-6 sm:h-6" />
           <h2 className="text-lg sm:text-2xl font-black italic text-white uppercase tracking-tighter">

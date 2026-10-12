@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The icon's dark red (resources/icon-background-1024.png), behind the car while the app starts. -->
+    <color name="ic_launcher_background">#2A0909</color>
+    <!-- The game's background (zinc-950 in src/index.css). -->
+    <color name="splash_background">#09090B</color>
+</resources>
